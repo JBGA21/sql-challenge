@@ -63,3 +63,5 @@ ORDER BY last_name_count DESC;
 SELECT *
 FROM employees 
 WHERE emp_no = 499942;
+
+-- Salary for employee number 499942: 
