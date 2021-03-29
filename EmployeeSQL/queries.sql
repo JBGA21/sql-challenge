@@ -65,3 +65,8 @@ FROM employees
 WHERE emp_no = 499942;
 
 -- Salary for employee number 499942: 
+SELECT e.emp_no, e.first_name, e.last_name, e.sex, e.hire_date, s.salary
+FROM employees AS e
+INNER JOIN salaries AS s
+	ON s.emp_no = e.emp_no
+WHERE e.emp_no = 499942;
