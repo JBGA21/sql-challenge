@@ -40,3 +40,4 @@ INNER JOIN departments AS d
 	ON d.dept_no = dpe.dept_no
 WHERE d.dept_name = 'Sales';
 
+-- 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
